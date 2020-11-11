@@ -8,8 +8,8 @@
 body, html {
     margin: 0 150px;
     border-radius: 50px;
-    background-color: rgb(255, 255, 255)
-    
+    font-size: 50px;
+    background-color: rgb(93, 193, 251)
 }
 div.cabecalho {
     border-bottom: 1px solid #ddd;
@@ -17,7 +17,7 @@ div.cabecalho {
 }
 div.cabecalho hgroup {
     display: grid;
-    background-color: #ffffff;
+    background-color: #ff0000;
   }
 div.cabecalho hgroup h1 {
     grid-column: 1;
