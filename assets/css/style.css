@@ -15,9 +15,17 @@ header {
     font-size: 25px;
     margin-bottom: 100px;
 }
-tr, td {
-    display: flex;
-    margin: 5px;
-    background-color: rgb(219, 219, 219);
+tr{
+    margin-left: 35px;
+    display: grid;
+    padding: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #bbbbbb;
+}
+td {
+    text-align: center;
+    width: 100%;
     border-radius: 10px;
+    margin: 5px;
 }
